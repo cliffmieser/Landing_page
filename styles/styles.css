@@ -8,13 +8,16 @@ body{
 
 section {
     background-color:aquamarine;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .header, .footer{
     background-color: #1F2937;
 }
 
+button{
+    background-color: #3882F6;
+}
 
 /* Header */
 .header{
@@ -24,6 +27,11 @@ section {
 
 .header .topnav{
     overflow: hidden;
+}
+
+.header p:first-of-type{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header ul{
@@ -41,14 +49,15 @@ section {
     justify-content: space-around;
 }
 
-.section .hero-text p:first-of-type{
+.section .hero-text p{
     font-size: 48px;
-    font-weight:800;
+    font-weight:800px;
     color: #F9FAF8;
 }
 
 .section .hero-text p:nth-of-type(2),
-.header ul{
+.header ul,
+footer{
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -60,15 +69,26 @@ section {
 }
 
 /* section 2 */
+.section.two .info-header{
+    font-size: 36px;
+    font-weight:800;
+    color:#1F2937;
+}
+
 .illustration-container{
     display: flex;
     gap: 20px;
 }
 
+.illustration-container p{
+    font-size: 18px;
+    color:#4c4d4f;
+}
 .section.two{
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 div img{
@@ -86,7 +106,7 @@ div img{
 }
 
 section figure{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
     flex-flow: column wrap;
 }
@@ -100,11 +120,12 @@ figure .caption{
 .section.four{
     display:flex;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .cta-container{
     display: flex;
+    background-color: #3882F6;
 }
 
 /* footer */
