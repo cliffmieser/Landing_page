@@ -46,7 +46,13 @@ button{
 .section.one{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hero-text{
+    inline-size: 380px;
+    overflow-wrap: break-word;
 }
 
 .section .hero-text p{
@@ -78,6 +84,9 @@ footer{
 .illustration-container{
     display: flex;
     gap: 20px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    justify-content: center;
 }
 
 .illustration-container p{
@@ -92,8 +101,8 @@ footer{
 }
 
 div img{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 
 }
 
@@ -120,14 +129,25 @@ figure .caption{
 .section.four{
     display:flex;
     justify-content: center;
+    background-color: white;
     /* border: 2px solid red; */
 }
 
 .cta-container{
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     background-color: #3882F6;
+    border-radius: 10px;
+    width: 700px;
+    justify-content: center;
+
 }
 
+
+.cta-container button{
+    display: block;
+}
 /* footer */
 
 .footer{
