@@ -168,7 +168,7 @@ figure .caption{
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
-    padding: 1em;
+    padding: 2em;
     background-color: #3882F6;
     border-radius: 10px;
     width: 700px;
@@ -176,14 +176,16 @@ figure .caption{
 
 }
 
-.cta-left p:first-of-type{
+.cta-left{
     font-size: 18px;
     color: white;
 
 }
 
-.cta-left p{
-    overflow-wrap: break-word;
+
+cta-left, cta-right{
+    display:flex;
+
 }
 
 .cta-container button{
