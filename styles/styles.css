@@ -182,6 +182,10 @@ figure .caption{
 
 }
 
+.cta-left p{
+    overflow-wrap: break-word;
+}
+
 .cta-container button{
     font-size: 24px;
     color:#E5E7EB;
